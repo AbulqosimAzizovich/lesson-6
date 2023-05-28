@@ -7,7 +7,7 @@
   },
   "author": "Abdulqosim",
   "license": "ISC",
-  "description": "",
+  "description": "<hr>",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
