@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*::after,
-*::before,
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
 
 body{
     overflow-x: hidden;
@@ -17,9 +9,8 @@ body{
 
 
 .container{
-    max-width: 1280px;
+    max-width: 1280px !important;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .btn{
@@ -28,4 +19,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ft_one{
+    position: relative;
+    left: 128px;
+    top: -125px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center calc(50% - 15px);
+    background-image: url(./assets/images/Sea.png);
+    max-width: 1073px;
+    height: 385px;
+    padding: 101px 124px;
+}
+
+
+.sss{
+    background-size:contain;
+    background-position: center calc(50% - 15px);
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/Vector.png);
+}
+
+.ssa{
+    border-bottom: 1px solid red;
+
 }
